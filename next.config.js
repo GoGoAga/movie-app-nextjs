@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {  images:{
-    domains: ["upload.wikimedia.org"]
-}}
-
-module.exports = nextConfig
+module.exports = {
+    reactStrictMode: true,
+    images: {
+      domains: ["upload.wikimedia.org", "image.tmdb.org"],
+    },
+  };
